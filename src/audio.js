@@ -20,6 +20,7 @@ function bgMPlay(a1,v1) {
   });
 }
 
+// Function to pause background music
 function bgMPause(a1) {
   var audId = a1;
   const audio = document.querySelector(audId);
