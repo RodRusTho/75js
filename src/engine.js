@@ -1,14 +1,6 @@
 // This file includes all the basic functions to get started using the engine
 // Read the LICENSE file in the main directory of the engine.
 
-// Function to define a screen height and width.
-function cScreenSize(w1,h1) {
-  var width1 = w1;
-  var height1 = h1;
-  document.getElementById("Main-Screen").width = width1;
-  document.getElementById("Main-Screen").height = height1;
-};
-
 // Function to create entities such as players, floors, enemies and such.
 function createEnt(imgSrc,p1,p2,w1,w2) {
   // Defines the canvas and context = 2d
@@ -39,3 +31,12 @@ function createText(tts1,p3,p4) {
   var pos4 = p4;
   ctx.fillText(textToShow,pos3,pos4);
 };
+
+function config(w1,h1,c1) {
+  var width1 = w1;
+  var height1 = h1;
+  var colorToSet = c1
+  document.getElementById("Main-Screen").width = width1;
+  document.getElementById("Main-Screen").height = height1;
+  document.getElementById("Main-Screen").style.backgroundColor = colorToSet;
+}
