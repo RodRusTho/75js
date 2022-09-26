@@ -10,7 +10,7 @@ function playSound(s1) {
 }
 
 // Function to play background music
-function bgMusic(a1,v1) {
+function bgMPlay(a1,v1) {
   var audId = a1;
   var volNu = v1;
   window.addEventListener("DOMContentLoaded", event => {
