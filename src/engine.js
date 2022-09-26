@@ -1,6 +1,6 @@
-function(createEnt) {
-  var c = document.getElementById("myCanvas");
+function createEnt(imgSrc,p1,p2) {
+  var c = document.getElementById("Main-Screen");
   var ctx = c.getContext("2d");
-  var img = document.getElementById("scream");
-  ctx.drawImage(img, 10, 10);
+  var img = document.getElementById(imgSrc);
+  ctx.drawImage(img,p1,p2);
 };
