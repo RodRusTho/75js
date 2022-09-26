@@ -2,9 +2,11 @@
 // Read the LICENSE file in the main directory of the engine.
 
 
-function cScreenSize(w1,w2) {
+function cScreenSize(w1,h1) {
   var width1 = w1;
-  var width2 = w2;
+  var height1 = h1;
+  document.getElementById("Main-Screen").width = width1;
+  document.getElementById("Main-Screen").height = height1;
 }
 
 // Function to create entities such as players, floors, enemies and such.
