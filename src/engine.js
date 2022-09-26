@@ -5,4 +5,4 @@ function createEnt(posx, posy, imgSrc) {
   ctx.drawImage(document.getElementById(imgSrc), posx, posy);
 }
 
-createEnt(10, 10, "player");
+createEnt(10,10,"player");
