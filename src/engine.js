@@ -1,3 +1,6 @@
+// This file includes all the basic functions to get started using the engine
+// Read the LICENSE file in the main directory of the engine.
+
 
 // Function to create entities such as players, floors, enemies and such.
 function createEnt(imgSrc,p1,p2,w1,w2) {
