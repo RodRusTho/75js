@@ -2,6 +2,7 @@
 // Read the LICENSE file in the main directory of the engine.
 
 
+// Function to define a screen height and width.
 function cScreenSize(w1,h1) {
   var width1 = w1;
   var height1 = h1;
