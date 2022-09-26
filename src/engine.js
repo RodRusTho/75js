@@ -7,7 +7,7 @@ function cScreenSize(w1,h1) {
   var height1 = h1;
   document.getElementById("Main-Screen").width = width1;
   document.getElementById("Main-Screen").height = height1;
-}
+};
 
 // Function to create entities such as players, floors, enemies and such.
 function createEnt(imgSrc,p1,p2,w1,w2) {
@@ -28,7 +28,7 @@ function createEnt(imgSrc,p1,p2,w1,w2) {
 // Function to change the background of the game
 function setBackground(colorToSet) {
   document.getElementById("Main-Screen").style.backgroundColor = colorToSet;
-}
+};
 
 // Function to create and display text.
 function createText(tts1,p3,p4) {
@@ -38,4 +38,4 @@ function createText(tts1,p3,p4) {
   var pos3 = p3;
   var pos4 = p4;
   ctx.fillText(textToShow,pos3,pos4);
-}
+};
