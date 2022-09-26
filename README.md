@@ -1,7 +1,7 @@
 
 # 75Js
 
-The 75Js project is an open sourced JavaScript game engine developed for Infrared Studios and indie developers.
+The 75Js project is an open sourced JavaScript game engine developed for Infrared Studios and indie developers. It will be developed based on the needs of Infared studios and will lack support for features that many people will need. If you want to fork the project and make your own version of it, you are welcome to.
 
 
 ## License
