@@ -1,3 +1,5 @@
+
+// Function to create entities such as players, floors, enemies and such.
 function createEnt(imgSrc,p1,p2,w1,w2) {
   var c = document.getElementById("Main-Screen");
   var ctx = c.getContext("2d");
@@ -9,6 +11,7 @@ function createEnt(imgSrc,p1,p2,w1,w2) {
   ctx.drawImage(img,pos1,pos2,wid1,wid2);
 };
 
+// Function to change the background of the game
 function setBackground(colorToSet) {
   var c = document.getElementById("Main-Screen").style.backgroundColor = colorToSet;
 }
