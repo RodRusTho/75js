@@ -29,3 +29,13 @@ function createEnt(imgSrc,p1,p2,w1,w2) {
 function setBackground(colorToSet) {
   document.getElementById("Main-Screen").style.backgroundColor = colorToSet;
 }
+
+// Function to create and display text.
+function createText(tts1,p3,p4) {
+  var c = document.getElementById("Main-Screen");
+  var ctx = c.getContext("2d");
+  var textToShow = tts1;
+  var pos3 = p3;
+  var pos4 = p4;
+  ctx.fillText(textToShow,pos3,pos4);
+}
