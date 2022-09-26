@@ -8,3 +8,7 @@ function createEnt(imgSrc,p1,p2,w1,w2) {
   var wid2 = w2
   ctx.drawImage(img,pos1,pos2,wid1,wid2);
 };
+
+function setBackground(colorToSet) {
+  var c = document.getElementById("Main-Screen").style.backgroundColor = colorToSet;
+}
