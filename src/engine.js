@@ -25,5 +25,5 @@ function createEnt(imgSrc,p1,p2,w1,w2) {
 
 // Function to change the background of the game
 function setBackground(colorToSet) {
-  var c = document.getElementById("Main-Screen").style.backgroundColor = colorToSet;
+  document.getElementById("Main-Screen").style.backgroundColor = colorToSet;
 }
