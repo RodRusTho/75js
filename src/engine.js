@@ -1,3 +1,5 @@
+const canvas = document.getElementById("Main-Screen")
+const ctx = canvas.getContext("2d")
 const clockTick = new Event('clockTick')
 let up = false
 let down = false
@@ -35,3 +37,37 @@ function fireClock(){
     document.dispatchEvent(clockTick)
 }
 setInterval(fireClock, 16.66)
+
+class Entity {
+    constructor(x,y) {
+        this.x = x
+        this.y = y
+        this.fIndex = functionLoop.length
+        functionLoop.push(this)
+    }
+    destroy(){
+        functionLoop[fIndex] = false
+    }
+    loop() {
+    }
+}
+
+function fireClock(){
+    document.dispatchEvent(clockTick)
+    for (const object in functionLoop){
+        if (functionLoop[object]){
+             functionLoop[object].loop()
+        }
+    }
+}
+
+class Player extends Entity {
+    constructor(x,y) {
+        super(x,y)
+        this.img = document.getElementById('player-ship')
+    }
+    loop(){
+        this.x += (right) - (left)
+        this.y += (down) - (up) 
+        ctx.drawImage(img, this.x, this.y)
+}
