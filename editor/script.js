@@ -2,9 +2,10 @@ const html_code = document.querySelector('.html-code textarea');
 const js_code = document.querySelector('.js-code textarea');
 const result = document.querySelector('#result');
 
-var htmlPre = document.getElementById('html-pre');
-
-htmlPre.innerHTML = '<canvas id="myCanvas" width="100%" height="100%" style="border:1px solid #d3d3d3;">Your browser does not support the HTML5 canvas tag.</canvas><script src="https://raw.githubusercontent.com/RodRusTho/75js/main/src/engine.min.js"></script>';
+const htmlPre = document.getElementById('html-pre');
+function restartT() {
+    htmlPre.innerHTML = '<canvas id="myCanvas" width="100%" height="100%" style="border:1px solid #d3d3d3;">Your browser does not support the HTML5 canvas tag.</canvas><script src="https://raw.githubusercontent.com/RodRusTho/75js/main/src/engine.min.js"></script>';
+}
 
 function run() {
     // Storing data in Local Storage
