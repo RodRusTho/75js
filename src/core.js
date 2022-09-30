@@ -1,16 +1,4 @@
-class Seventy{
-  function init() {
-    
-  }
-  
-  
-  
-  
-  
-  
-  
-  
-  
+class Seventy {
   
   // Start the game and run code.
   function initWindow(caW, caH, caName) {
